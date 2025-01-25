@@ -5,8 +5,7 @@ import java.util.Arrays;
 import static java.util.Arrays.*;
 
 public class ControllSort {
-    public static void main(String[] args) {
-        int[] input = {4,2,2,1,3,4};
+    public static Integer[] controllSort(int[] input){
         Integer[] chk = new Integer[input.length];
         int index = 1; //chk의 인덱스
 
@@ -14,9 +13,9 @@ public class ControllSort {
         sort(input);
 
         //2. 정렬된 input의 첫번째 인덱스 chk에 넣기
-       chk[0] = input[0];
+        chk[0] = input[0];
 
-        //3.
+        //3. chk의 마지막 원소와 input의 원소와 비교하기
         for(int i = 1; i < input.length; i++){
             if(chk[index - 1] != input[i]){
                 chk[index] = input[i];
@@ -34,13 +33,13 @@ public class ControllSort {
             }
         }
 
+        return output;
+    }
 
-
-        //System.out.println(Arrays.toString(input));
-        System.out.println(index);
-        System.out.println(Arrays.toString(chk));
+    public static void main(String[] args) {
+        int[] input = {4,2,2,1,3,4};
+        Integer[] output = controllSort(input);
         System.out.println(Arrays.toString(output));
-
     }
 }
 
