@@ -5,7 +5,7 @@ import java.util.Arrays;
 import static java.util.Arrays.*;
 
 public class ControllSort {
-    public static Integer[] controllSort(int[] input){
+    public static Integer[] solution(int[] input){
         Integer[] chk = new Integer[input.length];
         int index = 1; //chk의 인덱스
 
@@ -38,7 +38,7 @@ public class ControllSort {
 
     public static void main(String[] args) {
         int[] input = {4,2,2,1,3,4};
-        Integer[] output = controllSort(input);
+        Integer[] output = solution(input);
         System.out.println(Arrays.toString(output));
     }
 }
