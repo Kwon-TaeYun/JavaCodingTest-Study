@@ -44,7 +44,7 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        int[] answers = {1,2,3,4,5};
+        int[] answers = {1,3,2,4,2};
         int[] result = solution(answers);
         System.out.println(Arrays.toString(result));
     }
