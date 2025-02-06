@@ -1,4 +1,4 @@
-package day01.배열의평균값;
+package week01.배열의평균값;
 
 public class SortAvg {
     public static double solution(int[] numbers) {

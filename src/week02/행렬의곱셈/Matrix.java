@@ -1,11 +1,11 @@
-package day02.행렬의곱셈;
+package week02.행렬의곱셈;
 
 import java.util.Arrays;
 
 public class Matrix {
     public static int[][] solution(int[][] arr1, int[][] arr2) {
         int row = arr1.length;
-        int col = arr2.length;
+        int col = arr2[0].length;
         int com = arr1[0].length;
         int[][]answer = new int[row][col];
 

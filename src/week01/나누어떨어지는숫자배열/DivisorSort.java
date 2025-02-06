@@ -1,4 +1,4 @@
-package day01.나누어떨어지는숫자배열;
+package week01.나누어떨어지는숫자배열;
 
 import java.util.Arrays;
 

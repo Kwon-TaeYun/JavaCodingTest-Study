@@ -1,4 +1,4 @@
-package day01.배열정렬하기;
+package week01.배열정렬하기;
 import java.util.Arrays;
 
 import static java.util.Arrays.*;

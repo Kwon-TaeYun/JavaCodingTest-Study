@@ -1,4 +1,4 @@
-package day01.배열뒤집기;
+package week01.배열뒤집기;
 
 import java.util.Arrays;
 

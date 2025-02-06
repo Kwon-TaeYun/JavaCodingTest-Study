@@ -1,5 +1,4 @@
-package day01.배열제어하기;
-import java.util.ArrayList;
+package week01.배열제어하기;
 import java.util.Arrays;
 
 import static java.util.Arrays.*;

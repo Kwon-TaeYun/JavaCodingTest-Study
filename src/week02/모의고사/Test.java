@@ -1,4 +1,4 @@
-package day02.모의고사;
+package week02.모의고사;
 
 import java.util.ArrayList;
 import java.util.Arrays;
