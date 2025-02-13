@@ -5,7 +5,7 @@ import java.util.ArrayDeque;
 public class RemovePair {
     public static int solution(String s)
     {
-        int answer = -1;
+        int answer = 0;
         ArrayDeque<Character> stack = new ArrayDeque<>();
         char[] arr = s.toCharArray();
         for (char c : arr) {
@@ -18,6 +18,7 @@ public class RemovePair {
                     stack.pop();
                 }
             }
+            System.out.println(stack);
         }
 
         answer = (stack.isEmpty())?1:0;
@@ -27,7 +28,7 @@ public class RemovePair {
     }
 
     public static void main(String[] args) {
-        String input = "cdcd";
+        String input = "baabaa";
         int output = solution(input);
         System.out.println(output);
     }

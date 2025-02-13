@@ -39,7 +39,6 @@ public class RotateBracket {
 
             //System.out.println(Arrays.toString(arr));
 
-
         }
 
 
