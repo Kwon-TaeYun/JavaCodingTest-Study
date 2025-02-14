@@ -1,4 +1,4 @@
-package week03;
+package week03.같은숫자는싫어;
 
 import java.util.Arrays;
 import java.util.Stack;
