@@ -13,7 +13,7 @@ public class RaceStart {
             }else{
                 names.put(p, names.get(p)+1);
             }
-            //System.out.println(names);
+            System.out.println(names);
         }
         for (String c : completion) {
             if(names.containsKey(c)){
@@ -22,7 +22,7 @@ public class RaceStart {
                     names.remove(c);
                 }
             }
-            //System.out.println(names);
+            System.out.println(names);
         }
         for(String key : names.keySet()){
          answer = key;
