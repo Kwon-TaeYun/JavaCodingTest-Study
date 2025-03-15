@@ -16,7 +16,7 @@ public class OpenChat {
                 members.put(splitMember[1], splitMember[2]);
             }
         }
-//        System.out.println(members);
+        System.out.println(members);
 
         for(String r : record){
             String[] splitMember = r.split(" ");
